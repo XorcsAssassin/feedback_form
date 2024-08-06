@@ -1,0 +1,13 @@
+/* sliderProdImg.css */
+
+.slider-container {
+  width: 500px; /* Adjust width as needed */
+  height: 200px;
+  margin-bottom: 0; /* Center align the slider */
+}
+
+.slider-container .slick-slide img {
+  width: 100%; /* Ensure images take full width of their container */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Optional: Add rounded corners to images */
+}

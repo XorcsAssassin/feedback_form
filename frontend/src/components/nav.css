@@ -1,0 +1,51 @@
+nav{
+  margin-top: 20px;
+}
+nav,
+.ecom,
+.items{
+  display: flex;
+  align-items: center;
+}
+
+img{
+  width: 40px;
+  height: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+nav{
+  justify-content: space-between;
+}
+
+.ecom,
+.items{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.items p{
+  margin-top: 0px;
+  padding-right: 15px;
+  margin-bottom: 0px;
+}
+
+.ecom h3{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.button {
+  background-color: rgb(21, 177, 229);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+.button:hover {
+  background-color: cornflowerblue;
+}
